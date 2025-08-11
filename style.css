@@ -1,18 +1,18 @@
 :root {
-    --text-color: #000000; /*cor alterada*/
-    --card-front-color: #63a9ff; /*cor alterada*/
-    --card-back-color: #000000; /*cor alterada*/
+    --text-color: #ffffff; /*cor alterada*/
+    --card-front-color: #3100696c; /*cor alterada*/
+    --card-back-color: #ffe6e6; /*cor alterada*/
 }
 
 body{
-    background: url(img/montanha.png);
+    background: url(img/gente.jpeg);
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif; /*fonte alterada*/
 }
 
 footer{
-    background-color: rgb(72, 111, 240); /*cor alterada*/
-    color: rgb(0, 0, 0);
+    background-color: rgb(50, 7, 117); /*cor alterada*/
+    color: rgb(253, 253, 253);
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -34,7 +34,7 @@ footer p{
 
 .cartao {
     margin: 1rem 1rem;
-    background-color: rgb(0, 72, 100); /*cor alterada*/
+    background-color: rgb(1, 5, 54); /*cor alterada*/
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
